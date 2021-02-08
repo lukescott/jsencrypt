@@ -1,8 +1,6 @@
 import { b64tohex, hex2b64 } from "./lib/jsbn/base64";
 import { JSEncryptRSAKey } from "./JSEncryptRSAKey";
-
-
-declare var JSENCRYPT_VERSION:string;
+import { JSENCRYPT_VERSION } from "./version";
 
 export interface IJSEncryptOptions {
     default_key_size?:string;
